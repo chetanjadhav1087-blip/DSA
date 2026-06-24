@@ -7,7 +7,10 @@
 // C before D or M → 400 and 900
 // // Given a Roman numeral, convert it to an integer.
 
- const s = "LVIII";
+// Time Complexity: O(n), where n is the length of the input string since we traverse the string once.
+// Space Complexity: O(1), since we use a fixed-size map for Roman numerals.
+
+const s = "LVIII";
 let res = 0;
  function romanToInteger(){
     const romanList = {
